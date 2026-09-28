@@ -1,0 +1,1 @@
+rootProject.name = "portuguese-language-pack-2belle"

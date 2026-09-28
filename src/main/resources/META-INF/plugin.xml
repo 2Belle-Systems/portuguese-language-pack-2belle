@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.twobelle.portuguese.language.pack</id>
+    <name>Portuguese (Brazil) Language Pack - 2Belle Systems</name>
+    <version>1.0.0</version>
+
+    <vendor url="https://github.com/2Belle-Systems">2Belle Systems</vendor>
+
+    <description><![CDATA[
+      Pacote de idiomas em Português do Brasil completo para IntelliJ IDEA e IDEs JetBrains, desenvolvido por 2Belle Systems.
+    ]]></description>
+
+    <!-- Módulo essencial da plataforma -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Mapeamento para liberar o seletor da JetBrains -->
+    <extensions defaultExtensionNs="com.intellij">
+        <languagePack locale="pt_BR" bundle="messages.ActionsBundle"/>
+    </extensions>
+
+    <resource-bundle>messages.ActionsBundle</resource-bundle>
+    <resource-bundle>messages.UIBundle</resource-bundle>
+    <resource-bundle>messages.OptionsBundle</resource-bundle>
+</idea-plugin>
